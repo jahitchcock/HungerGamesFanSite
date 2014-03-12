@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<!--
+      Hunger Games Fan Site 
+      Author: Joshua Hitchcock
+			  Brandon Snuverink
+			  Victoria Newell
+      Date:   11/06/2013
+
+      Filename:         Mailing.html
+      Supporting files: modernizr-1.5.js, Home.css
+   -->
+	<meta charset="UTF-8" />
+    <title>Hunger Games Fans</title>
+    <script src="modernizr-1.5.js"></script>
+	<link href="Home.css" rel="stylesheet" />
+
+	</head>
+	
+	<body>
+		<header class="main">
+			<img src="HGlogo.jpg" alt="HGLogo" />
+			<nav class="horizontal">
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="movies.html">Movies</a></li>
+					<li><a href="actors.html">Actors</a></li>
+					<li><a href="books.html">Books</a></li>
+					<li><a href="mailing.html">Mailing</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section>
+			<img src="HGOdds.jpg" alt="May the odds be ever in your favor" />
+			<section>
+			
+			<p>
+				Please fill out the form below to join our mailing list.  
+				</br>Members will get updates and breaking news delivered to their email address.
+			<p/>
+		</section>
+		
+		<br/>
+		
+		<article> <center>
+			<h1>Join Our Mailing List</h1>
+			<br>
+			<form id="mailing" name="mailing"
+			action="#" 
+			method="post" enctype="text/plain">
+				
+					   <fieldset id="custInfo">
+			<legend>Fan Information</legend>
+			
+			<label for="custname">Name*</label>
+			<input name="custname" id="custname" placeholder="first and last name"/> <br></br>
+			
+			<label for="street">Street address</label>
+			<input name="street" id="street"/> <br></br>
+			
+			<label for="city">City</label>
+			<input name="city" id="city" /><br></br>
+			
+			<label for="state">State (abbr.)</label>
+			<input name="state" id="state" placeholder="MI"/><br></br>
+			
+			<label for="zip">Postal code</label>
+			<input name="zip" id="zip" placeholder="nnnnn (-nnnn)"/><br></br>
+			
+			<label for="phone">Phone</label>
+			<input name="phone" id="phone" placeholder="(nnn) nnn-nnnn"/><br></br>
+			
+			<label for="email">E-mail*</label>
+			<input name="email" id="email"/><br></br>
+			
+			<fieldset class="optionGroup">
+				<legend>Would you like to get emails</legend>
+				<label for="eYes">Yes</label> 
+				<input type="radio" name="EmailRadio" id="eYes" value="yes" /> <br></br>
+ 
+				<label for="eNo">No</label> 
+				<input type="radio" name="EmailRadio" id="eNo" value="no" /> <br></br>
+			</fieldset>
+			
+			<fieldset class="optionGroup">
+			<legend>Would you like to get postal mail</legend>
+				<label for="mYes">Yes</label> 
+				<input type="radio" name="mailRadio" id="mYes" value="yes" /> <br></br>
+ 
+				<label for="mNo">No</label> 
+				<input type="radio" name="mailRadio" id="mNo" value="no" /> <br></br>
+			</fieldset>
+		<p>
+			<input type="submit" value="Join Mailing List"/>
+			<input type="reset" value="Cancel"/>
+		</p>
+		</fieldset>
+				
+		</form>
+		</article> </center>
+	
+	</body>
+	
+</html>

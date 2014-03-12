@@ -1,0 +1,55 @@
+fieldset { 
+   background-color: black; 
+   border: 1px solid #4C0000; 
+   margin: auto; 
+   text-align: left;
+   width: 60%; 
+}
+
+legend { 
+   background-color: #4C0000; 
+   color: white; 
+   padding: 3px 0px; 
+   text-indent: 5px; 
+   width: 100%; 
+}
+
+label { 
+   clear: left; 
+   display: block; 
+   float: left; 
+   font-size: 0.9em; 
+   margin: 7px 4% 7px 5px; 
+   width: 40%; 
+}
+
+input { 
+   display: block; 
+   float: left; 
+   color: black;
+   font-size: 0.9em; 
+   margin: 7px 0px; 
+   width: 50%; 
+}
+
+fieldset.optionGroup{
+	width: 30%;
+}
+fieldset.optionGroup  label, fieldset.optionGroup input {
+	float: none; 
+	margin: auto; 
+	width: 20px;
+	display: inline; 
+}
+
+form p{
+	text-align: center;
+}
+
+input[type="submit"], input[type="reset"]{
+	display: inline;
+	float: none;
+	height: 40px;
+	width: 200px;
+	margin: auto; 
+}

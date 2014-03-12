@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<!--
+      Hunger Games Fan Site 
+      Author: Joshua Hitchcock
+			  Brandon Snuverink
+			  Victoria Newell
+      Date:   11/06/2013
+
+      Filename:         Books.html
+      Supporting files: modernizr-1.5.js, Home.css
+      -->
+	<meta charset="UTF-8" />
+    <title>Hunger Games Fans</title>
+    <script src="modernizr-1.5.js"></script>
+	<link href="Home.css" rel="stylesheet" />
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+
+	<style type="text/css">
+
+	/*Make sure your page contains a valid doctype at the top*/
+	#simplegallery1{ //CSS for Simple Gallery Example 1
+	position: relative; /*keep this intact*/
+	visibility: hidden; /*keep this intact*/
+	border: 2px solid black;
+	text-align: center;
+	}
+
+	#simplegallery1 .gallerydesctext{ //CSS for description DIV of Example 1 (if defined)
+	text-align: center;
+	padding: 2px 5px;
+	}
+
+	</style>
+
+	<script type="text/javascript" src="simplegallery.js">
+
+	/***********************************************
+	* Simple Controls Gallery- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+	* This notice MUST stay intact for legal use
+	* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+	***********************************************/
+
+	</script>
+
+	<script type="text/javascript">
+
+	var mygallery=new simpleGallery({
+		wrapperid: "simplegallery1", //ID of main gallery container,
+		dimensions: [255, 276], //width/height of gallery in pixels. Should reflect dimensions of the images exactly
+		//dimensions: [500, 360], //width/height of gallery in pixels. Should reflect dimensions of the images exactly
+		imagearray: [
+			["Book1.jpg","", "", ""],
+			["Book2.jpg","", "", ""],
+			["Book3.jpg", "", "", ""]
+		],
+		autoplay: [true, 2500, 2], //[auto_play_boolean, delay_btw_slide_millisec, cycles_before_stopping_int]
+		persist: false, //remember last viewed slide and recall within same session?
+		fadeduration: 500, //transition duration (milliseconds)
+		oninit:function(){ //event that fires when gallery has initialized/ ready to run
+			//Keyword "this": references current gallery instance (ie: try this.navigate("play/pause"))
+		},
+		onslide:function(curslide, i){ //event that fires after each slide is shown
+			//Keyword "this": references current gallery instance
+			//curslide: returns DOM reference to current slide's DIV (ie: try alert(curslide.innerHTML)
+			//i: integer reflecting current image within collection being shown (0=1st image, 1=2nd etc)
+		}
+	})
+
+	</script>
+
+	</head>
+	
+	<body>
+		<header class="main">
+			<img src="HGlogo.jpg" alt="HGLogo" />
+			<nav class="horizontal">
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="movies.html">Movies</a></li>
+					<li><a href="actors.html">Actors</a></li>
+					<li><a href="books.html">Books</a></li>
+					<li><a href="mailing.html">Mailing</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section>
+			<div id="simplegallery1"></div>
+			<p>
+						
+			<p/>
+		</section>
+		<br/>
+		<br/>
+	<center>	<article>
+			<h1>Books</h1>
+			<br>
+			
+			<br>
+			<dl>			<dt>The Hunger Games </dt>
+				<img src="hgbook1.jpg" alt="hgbook1" />
+<p>Twenty-four are forced to enter. Only the winner survives.
+
+In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. 
+Each year, the districts are forced by the Capitol to send one boy and one girl between the ages
+of twelve and eighteen to participate in the Hunger Games,
+a brutal and terrifying fight to the death – televised for all of Panem to see.
+
+Survival is second nature for sixteen-year-old Katniss Everdeen, who struggles to feed 
+her mother and younger sister by secretly hunting and gathering beyond the fences of District 12.
+When Katniss steps in to take the place of her sister in the Hunger Games, she knows it may be her death sentence. 
+If she is to survive, she must weigh survival against humanity and life against love.
+</p>
+<p> Order the book here: <a href="http://www.amazon.com/The-Hunger-Games-Book-1/dp/0439023521/ref=sr_1_2?ie=UTF8&qid=1385951353&sr=8-2&keywords=the+hunger+games"  style="color:#CC6600" >The Hunger Games</a> </p>
+					
+				<dt> Hunger Games: Catching Fire </dt>
+				
+			<img src="hgbook2.jpg" alt="hgbook2" />		
+<p> Against all odds, Katniss Everdeen has won the annual Hunger Games with fellow district tribute Peeta Mellark.
+But it was a victory won by defiance of the Capitol and their harsh rules. Katniss and Peeta should be happy.
+
+After all, they have just won for themselves and their families a life of safety and plenty. 
+But there are rumors of rebellion among the subjects, and Katniss and Peeta, to their horror,
+are the faces of that rebellion.
+
+The Capitol is angry. The Capitol wants revenge. Suzanne Collins continues the amazing story of 
+Katniss Everdeen in Catching Fire, the second novel of the phenomenal Hunger Games trilogy.
+</p>
+<p> Order the book here: <a href="http://www.amazon.com/Catching-Fire-Second-Hunger-Games/dp/0545586178/ref=sr_1_1?ie=UTF8&qid=1385956413&sr=8-1&keywords=the+hunger+games+catching+fire" style="color:#FF0000" >The Hunger Games: Catching Fire</a> </p>
+				
+				<dt>Mockingjay </dt>
+				
+				<img src="hgbook3.jpg" alt="hgbook3" />		
+<p>Against all odds, Katniss Everdeen has survived the Hunger Games twice.
+But now that she's made it out of the bloody arena alive, she's still not safe. 
+The Capitol is angry. The Capitol wants revenge.
+
+Who do they think should pay for the unrest? Katniss. 
+And what's worse, President Snow has made it clear that no one else is safe either. 
+Not Katniss's family, not her friends, not the people of District 12. 
+
+The Hunger Games trilogy promises to be one of the most talked about books of the year.
+				
+</p>	
+<p> Order the book here: <a href="http://www.amazon.com/Mockingjay-Final-Book-Hunger-Games/dp/0439023513/ref=sr_1_1?ie=UTF8&qid=1385956637&sr=8-1&keywords=the+hunger+games+mockingjay" style="color:#0000CC" >The Hunger Games: Mocking Jay </a> </p>			
+					
+			</dl>
+		</article> </center>
+		
+	
+	</body>
+	
+</html>

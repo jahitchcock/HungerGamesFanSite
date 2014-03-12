@@ -1,0 +1,174 @@
+
+/* Set the default page element styles */
+
+body * {
+   color:white;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 100%;
+   font-weight: inherit;
+   line-height: 1em;
+   list-style: none;
+   margin: auto;
+   padding: auto;
+   vertical-align: baseline;
+}
+
+
+
+/* Body Styles */
+body {
+   background-color: black;
+   width: 99%;
+   min-width: 1140px;
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+}
+
+
+
+/* Header Styles */
+
+header {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	min-width: 1140px;
+	width:94%;
+}
+
+
+header nav ul{
+	width: 75%;
+	padding: 1em;
+	
+}
+header nav ul li{
+	margin: .1em .1em;
+	padding: 1em 2.5em;
+	font-weight: bold;
+	border-width: .1em;
+	border-style: solid;
+	border-color: #E62E00;
+	background-color: #4C0000;
+	float: none;
+	font-size: large;
+	display: inline-block;
+	-moz-border-radius-topleft: .5em;
+	-webkit-border-top-left-radius: .5em;
+	border-top-left-radius: .5em;
+    -moz-border-radius-topright: .5em;
+    -webkit-border-top-right-radius: .5em;
+    border-top-right-radius: .5em;
+	
+}
+
+header nav ul li:hover {
+	color: black;
+   	border: .1em solid #4C0000;
+	background-color: #E62E00;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header img:last-of-type{
+   float: right;
+   height: 100px;
+   width: 110px;
+   position: relative;
+   top: -90px;
+}
+header img:first-of-type{
+   float: left; 
+   height: 100px;
+   width: 100px;
+}
+
+
+h1{
+	display: block; 
+	clear:left;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+	font-size: 3em;
+	letter-spacing: 5px;
+	line-height: 2em;
+	width: 70%
+}
+
+section {
+	display: block;
+	clear: left;
+	width: 70%
+}
+
+section p {
+	color: #CCCC00;
+	text-align: center;
+}
+
+synopsis {
+	display: block;
+	clear: left;
+	width: 70%
+}
+
+synopsis p {
+	color: #CCCC00;
+	text-align: left;
+	text-indent: 50px;
+}
+
+article dl {
+	width:60%;
+}
+
+article dl dt{
+	color: #CCCC00;
+	margin: .5em;
+	padding: .5em 1.3em;
+	font-weight: bold;
+	border-bottom: 10px solid #4C0000;
+	clear: left;
+}
+
+article dl dd {
+	float:left;
+	width:25%;
+
+}
+
+article dl dd.descript {
+	width:55%;
+	float:left;
+	margin:1em;
+	padding:1em;
+
+}
+
+sub{
+	position: relative;
+	top: 0.5em;
+	color: blue;
+	font-size: 0.8em;
+}
+
+
+
+video { 
+   background-color: white;
+      
+   display: block; 
+   margin: auto; 
+   text-align: center;
+   width: 80%;
+
+   	border-width: 2px;
+	border-style: solid;
+	border-color: grey;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;  
+}
